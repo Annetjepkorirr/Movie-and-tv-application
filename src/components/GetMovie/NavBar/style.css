@@ -1,0 +1,118 @@
+.Navigate {
+    background-color: rgb(36, 32, 32);
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.navb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+  }
+.moovie {
+    font-size: 24px;
+    color: peru;
+    cursor: pointer;
+}
+.moovie >span  {
+    color: #fff;
+}
+.locate {
+    width: 200px;
+    margin-right: 500px;
+  }
+.locate >input {
+    border: 1px solid #fff;
+    outline: 0;
+    background-color: transparent;
+    font-size: 16px;
+    color:black;
+    padding: 5px 400px 15px 25px;
+    border-radius: 10px;
+}
+.links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+  }
+li {
+    padding: 0 15px;
+    cursor: pointer;
+}
+li:hover {
+    color: darkorange;
+}
+  button {
+    background-color: darkorange;
+    color: white;
+    padding: 7px 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 12px;
+    
+    margin-left: 40px;
+  }
+  button:hover {
+    background-color: wheat;
+    color: darkorange;
+    padding: 7px 20px;
+    border: 1px solid peru;
+    outline: 0;
+    cursor: pointer;
+  }
+  .search-movies{
+    color: #fff;
+
+  }
+.search-results{
+  width: 100px;
+} 
+.nav {
+  display: flex;
+  margin-left: 10%;
+  
+}
+.search{
+  margin-left: 15%;
+}
+
+.search input{
+  margin-top: 5%;
+  /* gap: 20%; */
+  border-radius: 10px;
+  padding: 10px 170px;
+ 
+}
+.links li {
+  margin-top: 15%;
+ 
+ 
+}
+.links li a{
+  text-decoration: none;
+}
+.navbar{
+  background-color: rgb(221, 196, 149);
+  height: 80px;
+}
+.logo{
+  font-size: 40px;
+}
+.sign{
+  margin-top: 35px;
+}
+
+  
+
+
+
+
+
+
